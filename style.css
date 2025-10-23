@@ -1,0 +1,76 @@
+/* Element Selectors */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fdfdfd;
+}
+
+header {
+  background-color: #3b82f6;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer {
+  background-color: #1e293b;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Class Selectors */
+.card {
+  background-color: #e2e8f0;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 80%;
+}
+
+.highlight {
+  background-color: #fef08a;
+  padding: 1rem;
+  border-left: 4px solid #f59e0b;
+}
+
+nav a {
+  color: #f1f5f9;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.btn-home {
+  background-color: #3b82f6;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.btn-home:hover {
+  background-color: #2563eb;
+}
+
+
+/* ID Selectors */
+#main-header {
+  background-color: #2563eb;
+}
+
+#main-footer {
+  background-color: #0f172a;
+}
+
+#hobby-section {
+  background-color: #cffafe;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+#main-section {
+  padding: 1.5rem;
+  border-radius: 8px;
+}
