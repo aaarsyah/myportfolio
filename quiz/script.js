@@ -187,8 +187,7 @@ function showResult() {
   if (score === quizData.length) {
     setTimeout(() => {
       alert('💡 Kamu membuka MODE JENIUS!');
-      document.body.style.backgroundColor = 'gold';
-      document.body.innerHTML += "<h1 style='text-align:center; color:blue;'>✨ GENIUS MODE ACTIVATED ✨</h1>";
+      document.getElementById('mode').style.visibility = 'visible';
     }, 500);
   }
 
