@@ -182,6 +182,17 @@ function showResult() {
       ? "🙂 Lumayan, ayo tingkatkan lagi!"
       : "😅 Jangan menyerah, coba lagi!"
   }`;
+
+  //Easter Egg
+  if (score === quizData.length) {
+    setTimeout(() => {
+      alert('💡 Kamu membuka MODE JENIUS!');
+      document.body.style.backgroundColor = 'gold';
+      document.body.innerHTML += "<h1 style='text-align:center; color:blue;'>✨ GENIUS MODE ACTIVATED ✨</h1>";
+    }, 500);
+  }
+
   startButton.textContent = "Ulangi Kuis";
   startButton.classList.remove('hide');
 }
+  
