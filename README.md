@@ -1,3 +1,3 @@
 10 Semantic HTML tags: 
-<header>, <strong>, <list>, <nav>, <main>, <section>, <article>, <footer>, <img>, <blockquote>
+`<header>, <strong>, <list>, <nav>, <main>, <section>, <article>, <footer>, <img>, <blockquote>`
 
